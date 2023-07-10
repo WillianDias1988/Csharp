@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CleanArchMvc.Web.UI.props" />
+</Project>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zh7oFOixo3fV47oMstgXZRyEhRQWXxl0IFQLoxzH5/lANd4IE1PKq7ZDEaTDu28Acuxwkn935HJD4KdxoC401g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BlackFish\\Source\\Repos\\WillianDias1988\\CleanArchMvc\\CleanArchMvc\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BlackFish\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\BlackFish\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
