@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
 
 namespace Numeros_Positivos
 {
@@ -10,6 +7,19 @@ namespace Numeros_Positivos
     {
         static void Main(string[] args)
         {
+            double[] entrada = new double[6];
+            int contador = 0;
+            for (int i = 0; i < entrada.Length; i++)
+            {
+                double data = double.Parse(Console.ReadLine().ToString(), CultureInfo.InvariantCulture);
+                if (data > 0)
+                {
+                    contador++;
+                }
+            }
+
+            Console.WriteLine($"{contador} valores positivos");
+            Console.ReadKey();
         }
     }
 }
